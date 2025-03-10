@@ -1,4 +1,4 @@
-<https://www.youtube.com/watch?v=Gw2Jrid4SaQ>
+# Docker Setup
 
 Maker sure that virtualization is enabled on your machine.
 
@@ -13,11 +13,11 @@ Download Docker Toolbox for Windows 10 Home.
 
 Launch docker from desktop shortcut & try below commands.
 
-\$docker version
+**\$docker version**
 
 <img src="./media/image2.png" style="width:5.625in;height:5.23958in" />
 
-\$docker run hello-world
+**\$docker run hello-world**
 
 Downloads the hello-world image only first time if not available
 locally.
@@ -25,7 +25,7 @@ locally.
 <img src="./media/image3.png"
 style="width:6.26806in;height:1.13889in" />
 
-\$docker run redis
+**\$docker run redis**
 
 <img src="./media/image4.png"
 style="width:6.26806in;height:1.96667in" />
@@ -51,7 +51,7 @@ style="width:6.26806in;height:0.68264in" />
 <img src="./media/image10.png"
 style="width:6.26806in;height:2.11528in" />
 
-Ctrl+C to exit from above command.
+`Ctrl+C` to exit from above command.
 
 <img src="./media/image11.png" style="width:2.43in;height:1.84in" />
 
@@ -67,7 +67,7 @@ To display all containers including the exit ones –
 <img src="./media/image13.png"
 style="width:6.26806in;height:1.04028in" />
 
-\$docker stop \<CONTAINER ID\> 🡨 to stop the specific container
+**\$docker stop \<CONTAINER ID\>** 🡨 to stop the specific container
 
 Validate that the contains is stopped by command docker ps.
 
@@ -76,7 +76,7 @@ Validate that the contains is stopped by command docker ps.
 <img src="./media/image15.png"
 style="width:6.26806in;height:4.35556in" />
 
--a option is used to attach CLI to container so that the output is
+**-a** option is used to attach CLI to container so that the output is
 redirected to CLI.
 
 To see inside the running container –
@@ -84,7 +84,7 @@ To see inside the running container –
 <img src="./media/image16.png"
 style="width:6.26806in;height:1.30139in" />
 
-\$docker kill \<ID\> 🡨to forcefully kill the container when the
+**\$docker kill \<ID\>** 🡨to forcefully kill the container when the
 container is not responding
 
 To see inside the running container using the container shell –
@@ -92,12 +92,12 @@ To see inside the running container using the container shell –
 <img src="./media/image17.png"
 style="width:6.26806in;height:1.3375in" />
 
-Ctrl+D to exit from the shell of container. **-i** (interactive) to pass
+`Ctrl+D` to exit from the shell of container. **-i** (interactive) to pass
 input to container shell from CLI. **-t** (terminal) is for formatting
 the output of container shell. You can combine them as **-it**
 (interactive terminal).
 
-Dockerfile – text file used for building your own custom image from
+**Dockerfile** – text file used for building your own custom image from
 other existing image.
 
 <img src="./media/image18.png"

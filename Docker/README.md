@@ -1,3 +1,6 @@
+## Virtual Machines Vs Containers
+![Image](https://github.com/user-attachments/assets/f887f470-49ec-49b3-93b5-e0dd6cd0f10d)
+
 # Docker Setup
 
 Maker sure that virtualization is enabled on your machine.

@@ -1,5 +1,5 @@
 # An end to end demo on MLOps on SageMaker
-
+![Image](https://github.com/user-attachments/assets/b87aaff3-4d82-4bbd-b6c1-a32f08539e42)
 ### Prerequisites
 The following prerequisites must be completed to replicate this project.
 

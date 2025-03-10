@@ -1,4 +1,4 @@
-**Amazon SageMaker**
+# Amazon SageMaker
 
 Basic mlops flow-
 
@@ -211,3 +211,13 @@ AWS Lambda is a serverless compute service.
 
 <img src="./media/image31.png"
 style="width:6.26806in;height:1.49653in" />
+
+# Components used in Sagemaker projects
+![Image](https://github.com/user-attachments/assets/876d3799-a356-4711-8429-2aa2accc4113)
+
+# Large MLOps architecture with AWS
+![Image](https://github.com/user-attachments/assets/7f99ddce-de49-48d8-959f-877c8c51a726)
+
+# AWS AI/ML Stack
+![Image](https://github.com/user-attachments/assets/2667729a-ba63-49f6-aab2-8ed2a9f37fcc)
+
